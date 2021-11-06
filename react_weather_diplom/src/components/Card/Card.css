@@ -23,3 +23,184 @@ i:hover {
     70% { transform: translate(3px, 1px) rotate(-1deg); }
     90% { transform: translate(1px, 2px) rotate(0deg); }
     }
+
+@media screen and (max-width:1000px){
+    .card{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width:910px){
+    body{
+        background-size: auto;
+    }
+    .card{
+        width: 140px;
+    }
+}
+
+@media screen and (max-width:770px){
+    body{
+        background-size: auto;
+    }
+    .card{
+        width: 120px;
+    }
+
+}
+
+@media screen and (max-width:630px){
+    .card{
+        width: 110px;
+    }
+    .icon-style{
+        font-size: 6em;
+    }
+}
+
+@media screen and (max-width:620px){
+    body{
+        background-size: auto;
+    }
+    .card{
+        margin: 3px;
+    }
+    .icon-style{
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width:580px){
+    body{
+        background-size: auto;
+    }
+    .card{
+        width: 100px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:550px){
+    body{
+        background-size: auto;
+    }
+    .card{
+        width: 100px;
+        font-size: 12px;
+    }
+    .card-title{
+        font-size: 1.10em;
+    }
+    .city{
+        font-size: 20px;
+    }
+    .logo{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:535px){
+    body{
+        background-size: auto;
+    }
+    .card{
+        width: 95px;
+    }
+    .city{
+        font-size: 18px;
+    }
+    .logo{
+        font-size: 23px;
+    }
+
+}
+
+@media screen and (max-width:530px){
+    body{
+        background-size: auto;
+    }
+    .card{
+        width: 90px;
+        font-size: 11px;
+    }
+    .city{
+        font-size: 16px;
+    }
+    .logo{
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width:485px){
+    body{
+        background-size: auto;
+    }
+    .card{
+        width: 85px;
+    }
+    .city{
+        font-size: 14px;
+    }
+    .logo{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width:465px){
+    body{
+        background-size: auto;
+    }
+    .card{
+        width: 80px;
+    }
+    .city{
+        font-size: 12px;
+    }
+    .logo{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:440px){
+    body{
+        background-size: auto;
+    }
+    .card{
+        width: 75px;
+    }
+    .city{
+        font-size: 10px;
+    }
+    .logo{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:415px){
+    body{
+        background-size: auto;
+    }
+    .card{
+        width: 200px;
+        margin: 20px;
+        font-size: 18px;
+    }
+    .city{
+        font-size: 18px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .weather{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:280px){
+    .card{
+        width: 200px;
+    }
+    .icon-style{
+        font-size: 8em;
+    }
+}
